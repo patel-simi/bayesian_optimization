@@ -8,5 +8,6 @@ BO algorithms are typically consists of two parts: a surrogate model and the aqu
 
 ## Cites 
 [Bayesian Optimization Concept Explained in Layman Terms](https://towardsdatascience.com/bayesian-optimization-concept-explained-in-layman-terms-1d2bcdeaf12f)
+
 [Acquisition functions in Bayesian Optimization
 ](https://ekamperi.github.io/machine%20learning/2021/06/11/acquisition-functions.html#introduction)
