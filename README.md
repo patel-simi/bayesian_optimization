@@ -5,6 +5,12 @@ Bayesian Optimization is a form of hyperparameter tuning that improves the model
 Bayesian Optimization (BO) is also refered to as Sequential Model-Based Optimization (SMBO). "Sequential" due to the nature of adding the hyperparameters one by one to the surrogate model.
 BO algorithms are typically consists of two parts: a surrogate model and the aquisition function. A surrogate model is a made-up model that attempts to approximate the true function, and in this case is being consistantly updated with new predictions. An aquisition function is used to determine what the next data point should be using what it knows(exploiting) and what hasn't been learned yet(exploration).
 
+## Understanding
+Hyperparameter Tuning is the process of altering parameters within a model to achieve optimal results. Other hyperparameter tuning methods include a GridSearch, and  which takes ranges of variables you would like to use as parameters and tests out model using a combination of each of those parameters. 
+
+The process of hyperparameter tuning comes with cross-validation, which basically double checks if the parameters within the model actually perform optimal results. Cross-validation is the process of splitting the dataset into test/train, and iteratively testing the performance of model to calculate it's average performance.
+
+Bayesian Optimization is a hyperparameter tuning method, and would still require cross-validation to provide a more robust model. Bayesian Optimizaton has it's limitations as it can't be used for high-dimensional data and is optimal for models with fewer hyperparameters.
 
 ## Cites 
 [Bayesian Optimization Concept Explained in Layman Terms](https://towardsdatascience.com/bayesian-optimization-concept-explained-in-layman-terms-1d2bcdeaf12f)
