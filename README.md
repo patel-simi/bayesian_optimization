@@ -17,3 +17,9 @@ Bayesian Optimization is a hyperparameter tuning method, and would still require
 
 [Acquisition functions in Bayesian Optimization
 ](https://ekamperi.github.io/machine%20learning/2021/06/11/acquisition-functions.html#introduction)
+
+[A Conceptual Explanation of Bayesian Model Based Hyperparameter Optimization For Machine Learning](https://towardsdatascience.com/a-conceptual-explanation-of-bayesian-model-based-hyperparameter-optimization-for-machine-learning-b8172278050f)
+
+[Scikit-optimize](https://scikit-optimize.github.io/stable/index.html)
+
+[Introduction to Bayesian Optimization](https://github.com/WillKoehrsen/hyperparameter-optimization/blob/master/Bayesian%20Hyperparameter%20Optimization%20of%20Gradient%20Boosting%20Machine.ipynb)
